@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  list-style: none;
+  font-family:'Open Sans Condensed', sans-serif;
+}
+
+@keyframes spin {
+  0%   { opacity: 0.2;   text-shadow: 0px 0px 0px white;
+}
+  50% { opacity: 1; -webkit-transform: rotate(180deg);   text-shadow: 0px 0px 90px white;
+}
+  100% { opacity: 0.2; -webkit-transform: rotate(360deg);
+    text-shadow: 0px 0px 0px white;
+ }
+}
+
+body {
+  background-color: #222;
+  font-size: 300px;
+}
+
+.navbar {
+  display: inline;
+  color: #888;
+  
+  background: #fff;
+}
+
+ol {
+  overflow: hidden;
+  display:flex;
+  font-size:16px;
+  text-decoration: none;
+  font-size: 8%;
+  border: 0.1px solid gray
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #BDC3C7;
+}
+
+.logo{
+ text-align: right;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.subnavbtn:hover .subnavbtn-content {
+  
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: yellow;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+.recycle{
+  color: lightgreen;
+  position: absolute;
+  top: 50%; left: 50%;
+  margin-top: -190px; margin-left: -95px;
+  animation: spin 6s linear infinite;
+  -webkit-animation: spin 6s linear infinite;
+}
+.homepagetext{
+  font-size: 50px;
+  color: lightgreen;
+  text-align: center;
+}
+
+/*Dinging ware stuff*/
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+* {
+  box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+  
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: #888;
+  background: white;
+  text-rendering: optimizeLegibility;
+}
+.hhh{
+  text-align: justify;
+  
+}
+
+.description{
+  text-align: justify;
+  font-family: 'Pontano Sans', sans-serif;
+}
+.image-list{
+  float: left; 
+  height: 15em; 
+  margin-right: 1%; 
+  margin-bottom: 0.5em;
+  width:33%;
+}
+
+
+
